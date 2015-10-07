@@ -10,28 +10,28 @@
 
 @implementation MockCategorieRepository
 
-- (void) saveCategorie:(Categorie*)cat { }
+- (void) saveCategorie:(Category*)cat { }
 
-- (void) deleteCategorie:(Categorie*)cat { }
+- (void) deleteCategorie:(Category*)cat { }
 
 - (NSArray<Categorie*>*) getAll {
     NSMutableArray* library = [NSMutableArray new];
     
-    Categorie* c1 = [[Categorie alloc] init];
+    Category* c1 = [[Category alloc] init];
     c1.name = @"Boulangerie";
-    c1.id = @(001);
+    c1.idCat = @(001);
     [library addObject:c1];
     
-    Categorie* c2 = [[Categorie alloc] init];
+    Category* c2 = [[Category alloc] init];
     c2.name = @"Transport";
-    c2.id = @(002);
+    c2.idCat = @(002);
    
     [library addObject:c2];
     
     return library;
 }
 
-- (Categorie*) searchCategorieWithName:(NSString*)name {
+- (Category*) searchCategorieWithName:(NSString*)name {
     return nil;
 }
 

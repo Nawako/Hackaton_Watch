@@ -1,5 +1,5 @@
 //
-//  MockCategorieRepository.h
+//  MockMotsRepository.h
 //  EasyTalk
 //
 //  Created by Etudiant on 07/10/2015.
@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ICategorie.h"
+#import "IWordRepository.h"
 
-@interface MockCategorieRepository : NSObject <ICategorieRepository>
+@interface MockWordRepository : NSObject <IWordRepository>
 
 @end
