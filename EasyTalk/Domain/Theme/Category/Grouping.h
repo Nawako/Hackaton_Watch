@@ -1,5 +1,5 @@
 //
-//  Categorie.h
+//  Category.h
 //  EasyTalk
 //
 //  Created by Etudiant on 07/10/2015.
@@ -8,14 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Categorie : NSObject <NSCoding> {
+@interface Category : NSObject <NSCoding> {
     
     @private
     NSString* name_;
-    NSNumber* id_;
+    NSNumber* idCat_;
 }
 
 @property (nonatomic, strong) NSString* name;
-@property (nonatomic, strong) NSNumber* id;
+@property (nonatomic, strong) NSNumber* idCat;
 
 @end

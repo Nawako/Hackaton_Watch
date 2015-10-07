@@ -13,7 +13,7 @@
 - (instancetype) initWithCoder:(NSCoder *)aDecoder {
     if( (self = [super init]) ) {
         self.name = [aDecoder decodeObjectForKey:@"NAME"];
-        self.id = [aDecoder decodeObjectForKey:@"ID"];
+        self.idWord = [aDecoder decodeObjectForKey:@"ID"];
         self.categ = [aDecoder decodeObjectForKey:@"CATEG"];
     }
     return self;
@@ -21,13 +21,13 @@
 
 - (void) encodeWithCoder:(NSCoder *)aCoder {
     [aCoder encodeObject:self.name forKey:@"NAME"];
-    [aCoder encodeObject:self.id forKey:@"ID"];
-    [aCoder encodeObject:self.id forKey:@"CATEG"];
+    [aCoder encodeObject:self.idWord forKey:@"ID"];
+    [aCoder encodeObject:self.idWord forKey:@"CATEG"];
 }
 
 
 - (NSString *) description {
-    return [NSString stringWithFormat:@"Categorie [name=%@,  id=%@, categorie=%@]", self.name, self.id, self.categ];
+    return [NSString stringWithFormat:@"Categorie [name=%@,  id=%@, categorie=%@]", self.name, self.idWord, self.categ];
 }
 
 

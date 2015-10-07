@@ -6,35 +6,35 @@
 //  Copyright © 2015 Etudiant. All rights reserved.
 //
 
-#import "MockMotsRepository.h"
+#import "MockWordRepository.h"
 
-@implementation MockMotsRepository
+@implementation MockWordRepository
 
-- (void) saveMots:(Mots*)mot { }
+- (void) saveWord:(Word*)mot { }
 
-- (void) deleteMots:(Mots*)mot { }
+- (void) deleteWord:(Word*)mot { }
 
-- (NSArray<Mots*>*) getAll {
+- (NSArray<Word*>*) getAll {
     NSMutableArray* library = [NSMutableArray new];
     
-    Mots* m1 = [[Mots alloc] init];
+    Word* m1 = [[Word alloc] init];
     m1.categ = @"Boulangerie";
-    m1.id = @(001);
+    m1.idWord = @(001);
     m1.name = @"croissant";
     
     [library addObject:m1];
     
-    Mots* m2 = [[Mots alloc] init];
+    Word* m2 = [[Word alloc] init];
     m2.name= @"Ticket";
     m2.categ = @"Transport";
-    m2.id = @(002);
+    m2.idWord = @(002);
     
     [library addObject:m2];
     
     return library;
 }
 
-- (Mots*) searchCategorieWithName:(NSString*)name {
+- (Word*) searchWordWithName:(NSString*)name {
     return nil;
 }
 
