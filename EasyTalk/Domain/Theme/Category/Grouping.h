@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Category : NSObject <NSCoding> {
+@interface Grouping : NSObject <NSCoding> {
     
     @private
     NSString* name_;

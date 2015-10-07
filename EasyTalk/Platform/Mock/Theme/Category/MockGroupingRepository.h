@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ICategoryRepository.h"
+#import "IGroupingRepository.h"
 
-@interface MockCategoryRepository : NSObject <ICategoryRepository>
+@interface MockGroupingRepository : NSObject <IGroupingRepository>
 
 @end

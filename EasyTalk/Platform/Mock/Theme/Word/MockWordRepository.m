@@ -10,9 +10,9 @@
 
 @implementation MockWordRepository
 
-- (void) saveWord:(Word*)mot { }
+- (void) saveWord:(Word*)word { }
 
-- (void) deleteWord:(Word*)mot { }
+- (void) deleteWord:(Word*)word { }
 
 - (NSArray<Word*>*) getAll {
     NSMutableArray* library = [NSMutableArray new];

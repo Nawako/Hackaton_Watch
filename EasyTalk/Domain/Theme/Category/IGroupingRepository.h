@@ -12,9 +12,10 @@
 @protocol IGroupingRepository <NSObject>
 @required
 
-- (void) saveGrouping:(Category*)gr;
-- (void) deleteGrouping:(Category*)gr;
+- (void) saveGrouping:(Grouping*)gr;
+- (void) deleteGrouping:(Grouping*)gr;
 - (NSArray<Grouping*>*) getAll;
-- (Category*) searchGroupingWithName:(NSString*)name;
+- (Grouping*) searchGroupingWithName:(NSString*)name;
+
 
 @end

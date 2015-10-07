@@ -12,8 +12,8 @@
 @protocol IWordRepository <NSObject>
 @required
 
-- (void) saveWord:(Word*)mot;
-- (void) deleteWord:(Word*)mot;
+- (void) saveWord:(Word*)word;
+- (void) deleteWord:(Word*)word;
 - (NSArray<Word*>*) getAll;
 - (Word*) searchWordWithName:(NSString*)name;
 

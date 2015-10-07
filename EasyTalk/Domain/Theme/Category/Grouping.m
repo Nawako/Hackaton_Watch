@@ -6,7 +6,7 @@
 //  Copyright © 2015 Etudiant. All rights reserved.
 //
 
-#import "Category.h"
+#import "Grouping.h"
 
 @implementation Grouping
 

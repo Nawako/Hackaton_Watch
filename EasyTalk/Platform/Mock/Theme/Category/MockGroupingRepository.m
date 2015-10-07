@@ -6,32 +6,32 @@
 //  Copyright © 2015 Etudiant. All rights reserved.
 //
 
-#import "MockCategoryRepository.h"
+#import "MockGroupingRepository.h"
 
-@implementation MockCategoryRepository
+@implementation MockGroupingRepository
 
-- (void) saveCategory:(Category*)cat { }
+- (void) saveGrouping:(id)gr { }
 
-- (void) deleteCategory:(Category *)cat { }
+- (void) deleteGrouping:(id)gr { }
 
-- (NSArray<Category*>*) getAll {
+- (NSArray<Grouping*>*) getAll {
     NSMutableArray* library = [NSMutableArray new];
     
-    Category* c1 = [[Category alloc] init];
-    c1.name = @"Boulangerie";
-    c1.idCat = @(001);
-    [library addObject:c1];
+    Grouping* gr1 = [[Grouping alloc] init];
+    gr1.name = @"Boulangerie";
+    gr1.idCat = @(001);
+    [library addObject:gr1];
     
-    Category* c2 = [[Category alloc] init];
-    c2.name = @"Transport";
-    c2.idCat = @(002);
+    Grouping* gr2 = [[Grouping alloc] init];
+    gr2.name = @"Transport";
+    gr2.idCat = @(002);
    
-    [library addObject:c2];
+    [library addObject:gr2];
     
     return library;
 }
 
-- (Category*) searchCategoryWithName:(NSString *)name {
+- (Grouping*) searchGroupingWithName:(NSString *)name {
     return nil;
 }
 
