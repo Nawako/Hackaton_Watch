@@ -21,6 +21,10 @@
 		EC32BF4C1BC539CE00FECCA2 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32BF4B1BC539CE00FECCA2 /* ExtensionDelegate.m */; };
 		EC32BF4F1BC539CE00FECCA2 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC32BF4E1BC539CE00FECCA2 /* NotificationController.m */; };
 		EC32BF511BC539CE00FECCA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC32BF501BC539CE00FECCA2 /* Assets.xcassets */; };
+		ECAB8E571BC542F400943592 /* MockCategorieRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8E561BC542F400943592 /* MockCategorieRepository.m */; settings = {ASSET_TAGS = (); }; };
+		ECAB8E5A1BC5431400943592 /* MockMotsRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8E591BC5431400943592 /* MockMotsRepository.m */; settings = {ASSET_TAGS = (); }; };
+		ECAB8E5D1BC5446100943592 /* Categorie.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8E5C1BC5446100943592 /* Categorie.m */; settings = {ASSET_TAGS = (); }; };
+		ECAB8E601BC545D100943592 /* Mots.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8E5F1BC545D100943592 /* Mots.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,10 +72,10 @@
 /* Begin PBXFileReference section */
 		EC32BF1A1BC539CD00FECCA2 /* EasyTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC32BF1E1BC539CD00FECCA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EC32BF201BC539CD00FECCA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EC32BF211BC539CD00FECCA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EC32BF231BC539CD00FECCA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EC32BF241BC539CD00FECCA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC32BF201BC539CD00FECCA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		EC32BF211BC539CD00FECCA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		EC32BF231BC539CD00FECCA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		EC32BF241BC539CD00FECCA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		EC32BF271BC539CD00FECCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC32BF291BC539CD00FECCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC32BF2C1BC539CD00FECCA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -90,6 +94,16 @@
 		EC32BF4E1BC539CE00FECCA2 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
 		EC32BF501BC539CE00FECCA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC32BF521BC539CE00FECCA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAB8E551BC542F400943592 /* MockCategorieRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockCategorieRepository.h; sourceTree = "<group>"; };
+		ECAB8E561BC542F400943592 /* MockCategorieRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockCategorieRepository.m; sourceTree = "<group>"; };
+		ECAB8E581BC5431400943592 /* MockMotsRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockMotsRepository.h; sourceTree = "<group>"; };
+		ECAB8E591BC5431400943592 /* MockMotsRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockMotsRepository.m; sourceTree = "<group>"; };
+		ECAB8E5B1BC5446100943592 /* Categorie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categorie.h; sourceTree = "<group>"; };
+		ECAB8E5C1BC5446100943592 /* Categorie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categorie.m; sourceTree = "<group>"; };
+		ECAB8E5E1BC545D100943592 /* Mots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mots.h; sourceTree = "<group>"; };
+		ECAB8E5F1BC545D100943592 /* Mots.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mots.m; sourceTree = "<group>"; };
+		ECAB8E611BC5461E00943592 /* ICategorie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICategorie.h; sourceTree = "<group>"; };
+		ECAB8E621BC5493E00943592 /* IMots.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMots.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,10 +147,9 @@
 		EC32BF1C1BC539CD00FECCA2 /* EasyTalk */ = {
 			isa = PBXGroup;
 			children = (
-				EC32BF201BC539CD00FECCA2 /* AppDelegate.h */,
-				EC32BF211BC539CD00FECCA2 /* AppDelegate.m */,
-				EC32BF231BC539CD00FECCA2 /* ViewController.h */,
-				EC32BF241BC539CD00FECCA2 /* ViewController.m */,
+				ECAB8E471BC5407100943592 /* Application */,
+				ECAB8E431BC5405100943592 /* Domain */,
+				ECAB8E481BC5411000943592 /* Plateforms */,
 				EC32BF261BC539CD00FECCA2 /* Main.storyboard */,
 				EC32BF291BC539CD00FECCA2 /* Assets.xcassets */,
 				EC32BF2B1BC539CD00FECCA2 /* LaunchScreen.storyboard */,
@@ -186,6 +199,161 @@
 				EC32BF461BC539CD00FECCA2 /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECAB8E431BC5405100943592 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8E441BC5405100943592 /* theme */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		ECAB8E441BC5405100943592 /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8E451BC5405100943592 /* categorie */,
+				ECAB8E461BC5405100943592 /* mots */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		ECAB8E451BC5405100943592 /* categorie */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8E5B1BC5446100943592 /* Categorie.h */,
+				ECAB8E5C1BC5446100943592 /* Categorie.m */,
+				ECAB8E611BC5461E00943592 /* ICategorie.h */,
+			);
+			path = categorie;
+			sourceTree = "<group>";
+		};
+		ECAB8E461BC5405100943592 /* mots */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8E5E1BC545D100943592 /* Mots.h */,
+				ECAB8E5F1BC545D100943592 /* Mots.m */,
+				ECAB8E621BC5493E00943592 /* IMots.h */,
+			);
+			path = mots;
+			sourceTree = "<group>";
+		};
+		ECAB8E471BC5407100943592 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EC32BF201BC539CD00FECCA2 /* AppDelegate.h */,
+				EC32BF211BC539CD00FECCA2 /* AppDelegate.m */,
+				EC32BF231BC539CD00FECCA2 /* ViewController.h */,
+				EC32BF241BC539CD00FECCA2 /* ViewController.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		ECAB8E481BC5411000943592 /* Plateforms */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8E491BC5411000943592 /* Factory */,
+				ECAB8E4D1BC5411000943592 /* Mock */,
+				ECAB8E511BC5411000943592 /* Serialization */,
+			);
+			path = Plateforms;
+			sourceTree = "<group>";
+		};
+		ECAB8E491BC5411000943592 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8E4A1BC5411000943592 /* theme */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		ECAB8E4A1BC5411000943592 /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8E4B1BC5411000943592 /* categorie */,
+				ECAB8E4C1BC5411000943592 /* mots */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		ECAB8E4B1BC5411000943592 /* categorie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = categorie;
+			sourceTree = "<group>";
+		};
+		ECAB8E4C1BC5411000943592 /* mots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mots;
+			sourceTree = "<group>";
+		};
+		ECAB8E4D1BC5411000943592 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8E4E1BC5411000943592 /* theme */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		ECAB8E4E1BC5411000943592 /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8E4F1BC5411000943592 /* categorie */,
+				ECAB8E501BC5411000943592 /* mots */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		ECAB8E4F1BC5411000943592 /* categorie */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8E551BC542F400943592 /* MockCategorieRepository.h */,
+				ECAB8E561BC542F400943592 /* MockCategorieRepository.m */,
+			);
+			path = categorie;
+			sourceTree = "<group>";
+		};
+		ECAB8E501BC5411000943592 /* mots */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8E581BC5431400943592 /* MockMotsRepository.h */,
+				ECAB8E591BC5431400943592 /* MockMotsRepository.m */,
+			);
+			path = mots;
+			sourceTree = "<group>";
+		};
+		ECAB8E511BC5411000943592 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8E521BC5411000943592 /* theme */,
+			);
+			path = Serialization;
+			sourceTree = "<group>";
+		};
+		ECAB8E521BC5411000943592 /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8E531BC5411000943592 /* categorie */,
+				ECAB8E541BC5411000943592 /* mots */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
+		ECAB8E531BC5411000943592 /* categorie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = categorie;
+			sourceTree = "<group>";
+		};
+		ECAB8E541BC5411000943592 /* mots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,8 +488,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC32BF251BC539CD00FECCA2 /* ViewController.m in Sources */,
+				ECAB8E571BC542F400943592 /* MockCategorieRepository.m in Sources */,
 				EC32BF221BC539CD00FECCA2 /* AppDelegate.m in Sources */,
+				ECAB8E5D1BC5446100943592 /* Categorie.m in Sources */,
+				ECAB8E5A1BC5431400943592 /* MockMotsRepository.m in Sources */,
 				EC32BF1F1BC539CD00FECCA2 /* main.m in Sources */,
+				ECAB8E601BC545D100943592 /* Mots.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,6 +729,7 @@
 				EC32BF571BC539CE00FECCA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC32BF591BC539CE00FECCA2 /* Build configuration list for PBXNativeTarget "EasyTalk WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +738,7 @@
 				EC32BF5B1BC539CE00FECCA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC32BF5D1BC539CE00FECCA2 /* Build configuration list for PBXNativeTarget "EasyTalk" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +747,7 @@
 				EC32BF5F1BC539CE00FECCA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
